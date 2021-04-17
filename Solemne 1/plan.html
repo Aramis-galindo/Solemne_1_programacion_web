@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+
+</head>
+
+<style>
+    * {
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url(./img/icono2.jpg);
+    }
+
+    .form-register {
+        width: 400px;
+        height: auto;
+        background: #24303c;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        box-shadow: 7px 13px 37px #000;
+    }
+
+    .form-register h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .controls {
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f53c5;
+        font-family: 'calibri';
+        font-size: 18px;
+        color: white;
+    }
+
+    .form-register p {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .form-register a {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .form-register .botons {
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin: 16px 0;
+        font-size: 16px;
+    }
+</style>
+
+<body>
+
+    <section class="form-register">
+
+        <form>
+            <center>
+                <h3>INGRESA TUS DATOS</h3>
+            </center>
+            <h3><br><br>
+
+                <label for="name"> Nombre. </label>
+                <input class="controls" type="text" id="name" maxlength="40" minlength="3"
+                    placeholder="Ingrese su nombre" required>
+
+
+                <label for="rut"> Rut: </label>
+                <input class="controls" type="text" name="rut" id="rut" placeholder="Ingrese su rut" required>
+                <label for="email">Correo: </label>
+                <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su correo" required>
+
+                <label for="numero">Numero:</label>
+                <input class="controls" type="number" id="numero" placeholder="Ingrese su telefono" required>
+                <label for=""> Seleccione Region: </label>
+                <select class="controls" id="region">
+                    <option value="pais">Valparaiso</option>
+                    <option value="pais">Araucania</option>
+                    <option value="pais">Otro</option>
+                    <option selected value="region">Metropolitana</option>
+                </select>
+
+                <label>
+                    Acepto terminos y condiciones. <input type="checkbox" required>
+
+                </label>
+                <input class="controls" type="submit" value="Enviar">
+
+
+        </form>
+    </section>
+
+
+    <br><br>
+</body>
+
+</html>

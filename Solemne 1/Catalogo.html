@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de planes</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+
+
+    <style>
+
+        .col-2{
+            max-width: max-content;
+            flex-wrap: wrap;
+            margin-bottom: 0px;
+        }
+
+        * {
+            scroll-behavior:auto;
+        }
+            .navbar {
+            position: sticky !important;
+            top: 0;
+            z-index: 1020;
+        }
+        nav:nth-child(1) {
+            background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%); }
+
+
+
+    </style>
+</head>
+
+
+<body   >
+   
+
+    <nav  id="navbar" class="navbar navbar-expand-lg  navbar-dark bg-dark"> <img id="tituloimg" src="./img/titulo.jpg" 
+        alt="" style="width:px; height:80px;padding: 3mm; ">
+
+    <a class="navbar-brand" href="./index.html" style="color: black;" > Inicio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul   class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: black;" >  
+                    Plan
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#catalogo1" style="color: black;" >Movil</a>
+                    <a class="dropdown-item" href="#catalogo2" style="color: black;" >Hogar</a>
+
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" role="button" target="_blank"
+                    href="https://instagram.com/_olimpogames_?igshid=1ikbuxbmfy62h" style="color: black;" >Instagram<span
+                        class="sr-only"></span></a>
+            </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar..."  aria-label="Search">
+            <button type="button" class="btn btn-light">Buscar</button>
+        </form>
+    </div>
+</nav>
+
+<p>
+    <img  src="./img/imagencatalogo.jpeg" alt="nohayimagen" style="width: 100%; height: 400px; " >
+    
+</p>
+ 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<br><br><br>
+    <div  id="catalogo1"> 
+        <center>
+        <div class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        
+        <div class="spinner-grow text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-success" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-danger" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-warning" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-info" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-light" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-dark" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        </center> 
+    </div>
+<br><br><br>
+<div class="container my-2">
+    <br>
+    <h2  style="color:dimgray " > <center> Catalogos de planes </center> </h2>
+    <h5 id="movil"> <i  style="color:lightslategrey;" > <center> Planes Moviles</i></h5></center>
+    <div class="row">
+
+        
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="http://generico.sublimesolutions.com/productos/imgs/celular-libre-samsung-a10s-negro-876-31.jpg" class="card-img-top" alt="no hay imagen">
+            <div class="card-body">
+                <h5 class="card-title">Plan S</h5>
+                <p class="card-text">Obten 10gb y 50 minutos libres.
+                 </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$7.000</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="https://taran.com.uy/wp-content/uploads/2020/11/productos31_4521.jpg"
+                class="card-img-top" alt="no hay imagen">
+            <div class="card-body">
+                <h5 class="card-title">Plan M</h5>
+                <p class="card-text">Obten 15gb y 100 minutos libres. </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$9.990</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="http://generico.sublimesolutions.com/productos/imgs/celular-libre-motorola-one-negro-850-31.jpg"
+                class="card-img-top" alt="no hay imagen">
+            <div class="card-body">
+                <h5 class="card-title">Plan L</h5>
+                <p class="card-text"> Obten 25gb con 200 minutos libres.</p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$15.000</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="https://fustec.odoo.com/web/image/product.template/641/image_256/Celular%20Samsung%20Galaxy%20A31%20128GB%20Negro%20Dual%20SIM?unique=7eaf191"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Plan XL</h5>
+                <p class="card-text">Obten 40 Gb con 500 minutos libres. </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$23.000</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="https://fustec.odoo.com/web/image/product.template/759/image_256/%5BMAR-LX3-BLU%5D%20Celular%20HUAWEI%20P30%20Lite%20128GB%20Azul%20Orquidea%202SIM?unique=17599c5"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Plan KING</h5>
+                <p class="card-text">Obten 75 gb con minutos ilimitados. </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$28.000</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="https://www.digitaloutlet.com.uy/imgs/productos/productos31_4773.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Plan QUEEN</h5>
+                <p class="card-text">Obten 100 GB con minutos ilimitados. </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$33.000</a>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div  id="catalogo2"> 
+    <center>
+    <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    
+    <div class="spinner-grow text-secondary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-success" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-danger" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-info" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-light" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-grow text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+    </center> 
+</div>
+<br>
+<br>
+<br>
+<div class="container my-2">
+    <br>
+
+    <h2 id="catalogo2" style="color:dimgray" > <center> Catalogos de planes </center> </h2>
+    <h5 id="hogar"> <i style="color:lightslategrey;" >  <center> Planes Hogar</i></h5>
+    <div class="row"></center>
+
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="http://generico.sublimesolutions.com/productos/imgs/celular-libre-samsung-a10s-negro-876-31.jpg" class="card-img-top" alt="no hay imagen">
+            <div class="card-body">
+                <h5 class="card-title">Plan S</h5>
+                <p class="card-text">Obten 10gb y 50 minutos libres.
+                 </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$7.000</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="https://taran.com.uy/wp-content/uploads/2020/11/productos31_4521.jpg"
+                class="card-img-top" alt="no hay imagen">
+            <div class="card-body">
+                <h5 class="card-title">Plan M</h5>
+                <p class="card-text">Obten 15gb y 100 minutos libres. </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$9.990</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="http://generico.sublimesolutions.com/productos/imgs/celular-libre-motorola-one-negro-850-31.jpg"
+                class="card-img-top" alt="no hay imagen">
+            <div class="card-body">
+                <h5 class="card-title">Plan L</h5>
+                <p class="card-text"> Obten 25gb con 200 minutos libres.</p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$15.000</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="https://fustec.odoo.com/web/image/product.template/641/image_256/Celular%20Samsung%20Galaxy%20A31%20128GB%20Negro%20Dual%20SIM?unique=7eaf191"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Plan XL</h5>
+                <p class="card-text">Obten 40 Gb con 500 minutos libres. </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$23.000</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="https://fustec.odoo.com/web/image/product.template/759/image_256/%5BMAR-LX3-BLU%5D%20Celular%20HUAWEI%20P30%20Lite%20128GB%20Azul%20Orquidea%202SIM?unique=17599c5"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Plan KING</h5>
+                <p class="card-text">Obten 75 gb con minutos ilimitados. </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$28.000</a>
+            </div>
+        </div>
+
+        <div class="col-2" style="width: 18rem;">
+            <img src="https://www.digitaloutlet.com.uy/imgs/productos/productos31_4773.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Plan QUEEN</h5>
+                <p class="card-text">Obten 100 GB con minutos ilimitados. </p>
+                <a href="./plan.html" target= "_blank" class="btn btn-primary">$33.000</a>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+    
+</body>
+</html>
